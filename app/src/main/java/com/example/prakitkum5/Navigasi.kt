@@ -24,3 +24,6 @@ fun DataApp(
         NavHost(
             navController = navController,
             startDestination = Navigasi.FormulirSaya.name,
+
+            modifier = Modifier.padding(isiRuang)
+        )
