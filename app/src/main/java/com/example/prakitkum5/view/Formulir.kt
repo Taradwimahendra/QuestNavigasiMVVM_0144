@@ -44,3 +44,5 @@ fun FormIsian(
         }
     ){isiRuang ->
         Column(modifier = Modifier.padding(isiRuang),
+            verticalArrangement = Arrangement.Top,
+            horizontalAlignment = Alignment.CenterHorizontally) {
